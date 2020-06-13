@@ -1,0 +1,220 @@
+<!-- Facebook homepage doppelganger from scratch using HTML+CSS as a beginner! -->
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Facebook - log in or sign up</title>
+        <meta name="author" content="Shreyansh Kumar Singh">
+        <link rel="stylesheet" type="text/css" href="Cascading Style Sheet.css">
+        <!-- Link to External Style Sheet -->
+    </head>
+
+<body>
+    <div class="header-control">
+        <div class="align-control">
+            <h1 class="logo-control">
+                <a href="https://www.facebook.com/" title="Go to Facebook home">
+                    <img border="0" alt="Facebook" src="Facebook-Logo.png" width="100" height="100"></a>
+            </h1>
+
+            <div class="label-container">
+                <table cellspacing="0">
+                    <!-- <tr> element to define a Table row
+                         <td> element to define a Table data
+                         <th> element to define a Table heading -->
+                    <tr>
+                        <td> <!-- 'for' specifies the #ID of the form element the label should be bound to -->
+                            <label for "email">Email or phone</label>
+                        </td>
+                        <td>
+                            <label for "password">Password</label>
+                        </td>
+                    </tr>
+
+                    <tr>
+                            <!-- Email defines a field for an e-mail address -->
+                            <!-- Hidden/Password field include data that cannot be seen/modified by users when a form is submitted -->
+                        <td><p>   <input type="email" id="email">    </p></td>
+                        <td><p>   <input type="password" id="password" name="password">   </p></td>
+                        <td><p>   <input type="button" id="button" value="Log In">    </p></td>
+                    </tr>
+                    <tr>
+                        <td>&nbsp;</td> <!-- Two words separated by a non-breaking space will stick together -->
+                        <td><p><a href="https://www.facebook.com/recover/initiate?lwv=110&amp;ars=royal_blue_bar">Forgotten account?</a></p></td>
+                    </tr>
+                </table>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="main-page">
+    <div class="content"> <!-- Header :: Content :: Left-Half :: Right-Half :: Footer -->
+        
+    <div class="left-half">
+        <section>
+        <p>Facebook helps you connect and share with the people in your life.</p>
+        <img class="img" src="https://static.xx.fbcdn.net/rsrc.php/v3/yb/r/D2gpTO7NG8Y.png" 
+        alt="" width="537" height="195">
+        </section>
+    </div>
+
+    <div class="right-half">
+        <h1>Create an account</h1>
+        <p>It's quick and easy.</p>
+
+        <table>
+            <tr>
+                <!-- Placeholder selector selects form elements with placeholder text, and let you style the placeholder text -->
+                <td><input type="text" placeholder="First name" class="name"></td>
+                <td><input type="text" placeholder="Surname" class="name"></td>
+            </tr>
+            <tr>
+                <!-- Colspan attribute defines the number of columns a cell should span -->
+                <td colspan="2"><input type="email/number" placeholder="Mobile number or email address" class="contact"></td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="password" placeholder="New password" class="contact"></td>
+            </tr>
+        </table>
+
+        <div>
+            <div class="birthday">Birthday</div>
+                <li class="listA">
+
+                    <!-- Selected specifies that an option should be pre-selected when the page loads -->
+                    <!-- Value specifies the value to be sent to a server -->
+                    <select title ="Day"><option value="0" selected="1">Day</option>
+    <option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option>
+    <option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option><option value="10">10</option>
+    <option value="11">11</option><option value="12">12</option><option value="13">13</option><option value="14">14</option><option value="15">15</option>
+    <option value="16">16</option><option value="17">17</option><option value="18">18</option><option value="19">19</option><option value="20">20</option>
+    <option value="21">21</option><option value="22">22</option><option value="23">23</option><option value="24">24</option><option value="25">25</option>
+    <option value="26">26</option><option value="27">27</option><option value="28">28</option><option value="29">29</option><option value="30">30</option>
+    <option value="31">31</option></select>                
+                    </select>
+
+                    <select title ="Month"><option value="0" selected="1">Month</option>
+                        <option value="1">Jan</option><option value="2">Feb</option><option value="3">Mar</option>
+                        <option value="4">Apr</option><option value="5">May</option><option value="6">Jun</option>
+                        <option value="7">Jul</option><option value="8">Aug</option><option value="9">Sep</option>
+                        <option value="10">Oct</option><option value="11">Nov</option><option value="12">Dec</option>
+                    </select>
+
+                    <select title="Year"><option value="0" selected="1">Year</option>
+    <option value="2020">2020</option><option value="2019">2019</option><option value="2018">2018</option><option value="2017">2017</option>
+    <option value="2016">2016</option><option value="2015">2015</option><option value="2014">2014</option><option value="2013">2013</option>
+    <option value="2012">2012</option><option value="2011">2011</option><option value="2010">2010</option><option value="2009">2009</option>
+    <option value="2008">2008</option><option value="2007">2007</option><option value="2006">2006</option><option value="2005">2005</option>
+    <option value="2004">2004</option><option value="2003">2003</option><option value="2002">2002</option><option value="2001">2001</option>
+    <option value="2000">2000</option><option value="1999">1999</option><option value="1998">1998</option><option value="1997">1997</option>
+    <option value="1996">1996</option><option value="1995">1995</option><option value="1994">1994</option><option value="1993">1993</option>
+    <option value="1992">1992</option><option value="1991">1991</option><option value="1990">1990</option><option value="1990">1989</option>
+                    </select>
+
+                        <a href="#" title="Click for more information">
+                            <img border="0" alt="Click for more information" src="Information.png" width="16" height="16"></a>
+                </li>
+        </div>
+
+        <div>
+            <div class="gender">Gender</div>
+            <!-- Radio groups are collections of radio buttons describing a set of related options -->
+                <li class="listB"><input type="radio"><span>Female</span><input type="radio"><span>Male</span><input type="radio"><span>Custom</span>
+                    <a href="#" title="Click for more information">
+                        <img border="0" alt="Click for more information" src="Information.png" width="16" height="16"></a>
+                </li>
+                <div id="terms">By clicking Sign Up, you agree to our <a href="https://www.facebook.com/legal/terms/update">
+                    Terms</a>, <a href="https://www.facebook.com/about/privacy/update">
+                    Data Policy</a> and <a href="https://www.facebook.com/policies/cookies/">Cookie Policy</a>. 
+                    You may receive SMS notifications from us and can opt out at any time.</div>
+                
+                <div id="create">
+                    <div>
+                    <input type="submit" value="Sign Up">
+
+                    </div>
+                <p><a href="https://www.facebook.com/pages/create/?ref_type=registration_form">Create a Page</a> for a celebrity, band or business.</p>
+                </div>
+        </div>
+
+    </div>
+    </div>
+
+    </div>
+
+    <div class="footer">
+        <div class="footer1">
+            <ul>
+                <li><a direction="ltr" href="#" title="British English">English (UK)</a></li>
+                <li><a direction="ltr" href="https://bn-in.facebook.com/" title="Bengali">বাংলা</a></li>
+                <li><a direction="ltr" href="https://hi-in.facebook.com/" title="Hindi">हिन्दी</a></li>
+                <li><a direction="ltr" href="https://ur-pk.facebook.com/" title="Urdu">اردو</a></li>
+                <li><a direction="ltr" href="https://ne-np.facebook.com/" title="Nepali">नेपाली</a></li>
+                <li><a direction="ltr" href="https://or-in.facebook.com/" title="Oriya">ଓଡ଼ିଆ</a></li>
+                <li><a direction="ltr" href="https://es-la.facebook.com/" title="Spanish">Español</a></li>
+                <li><a direction="ltr" href="https://pt-br.facebook.com/" title="Portuguese (Brazil)">Português (Brasil)</a></li>
+                <li><a direction="ltr" href="https://fr-fr.facebook.com/" title="French (France)">Français (France)</a></li>
+                <li><a direction="ltr" href="https://de-de.facebook.com/" title="German">Deutsch</a></li>
+                <li><a direction="ltr" href="https://it-it.facebook.com/" title="Italian">Italiano</a></li>
+                <li><a role="button" href="#" title="Show more languages" tabindex="0">
+                    <img src = "Languages.png" width="12" height="12"></img></a></li>
+            </ul>
+
+            <p class="border"></p>
+        </div>
+
+        <div class="footer2">
+            <ul>
+                <li><a direction="ltr" href="https://www.facebook.com/r.php" title="Sign up for Facebook">Sign Up</a></li>
+                <li><a direction="ltr" href="https://www.facebook.com/login/" title="Log in to Facebook">Log In</a></li>
+                <li><a direction="ltr" href="https://messenger.com/" title="Take a look at Messenger.">Messenger</a></li>
+                <li><a direction="ltr" href="https://www.facebook.com/lite/" title="Facebook Lite for Android.">Facebook Lite</a></li>
+                <li><a direction="ltr" href="https://www.facebook.com/watch/" title="Browse our Watch videos."> Watch </a></li>
+                <li><a direction="ltr" href="https://www.facebook.com/directory/people/" title="Browse our people directory.">People</a></li>
+                <li><a direction="ltr" href="https://www.facebook.com/directory/pages/" title="Browse our Pages directory.">Pages</a></li>
+                <li><a direction="ltr" href="https://www.facebook.com/pages/category/" title="Page categories">Page categories</a></li>
+                <li><a direction="ltr" href="https://www.facebook.com/places/" title="Take a look at popular places on Facebook.">Places</a></li>
+                <li><a direction="ltr" href="https://www.facebook.com/games/" title="Check out Facebook games.">Games</a></li>
+                <li><a direction="ltr" href="https://www.facebook.com/directory/places/" title="Browse our places directory.">Locations</a></li>
+                <li><a direction="ltr" href="https://www.facebook.com/marketplace/" title="Buy and sell on Facebook Marketplace.">Markretplace</a></li>
+                <li><a direction="ltr" href="https://www.facebook.com/directory/groups/" title="Browse our Groups directory.">Groups</a></li>
+                <li><a direction="ltr" href="https://portal.facebook.com/" target="_blank" title="Learn more about Portal from Facebook">Portal</a></li>
+                <li><a direction="ltr" href="https://instagram.com/" title="Take a look at Instagram" target="_blank">
+                    <span><img src="Green Tick.png" width="16" height="16"></img></span>Instagram</a></li>
+
+                <li><a direction="ltr" href="https://www.facebook.com/local/lists/245019872666104/" title="Browse our Local Lists directory.">Local</a></li>
+                <li><a direction="ltr" href="https://www.facebook.com/fundraisers/" title="Donate to worthy causes.">Fundraisers</a></li>
+                <li><a direction="ltr" href="https://www.facebook.com/biz/directory/" title="Browse our Facebook Services directory.">Services</a></li>
+                <li><a direction="ltr" href="https://www.facebook.com/facebook" title="Read our blog, 
+                discover the resource centre and find job opportunities.">About</a></li>
+                <li><a direction="ltr" href="https://www.facebook.com/ad_campaign/landing.php?placement=pflo&campaign_id=402047449186&extra_1=auto" 
+                title="Advertise on Facebook">Create ad</a></li>
+                <li><a direction="ltr" href="https://www.facebook.com/pages/create/?ref_type=site_footer" title="Create a Page">Create Page</a></li>
+                <li><a direction="ltr" href="https://developers.facebook.com/" title="Develop on our platform.">Developers</a></li>
+                <li><a direction="ltr" href="https://www.facebook.com/careers/" title="Develop on our platform.">Careers</a></li>
+                <li><a direction="ltr" href="https://www.facebook.com/privacy/explanation" title="Learn about your privacy and Facebook.">Privacy</a></li>
+                <li><a direction="ltr" href="https://www.facebook.com/policies/cookies/" title="Learn about cookies and Facebook.">Cookies</a></li>
+                <li><a direction="ltr" href="https://www.facebook.com/help/568137493302217" title="Learn about AdChoices.">AdChoices
+                    <span><img src="Ad Block.png" width="16" height="16"></img></span></a></li>
+
+                <li><a direction="ltr" href="https://www.facebook.com/policies" title="Review our terms and policies." accesskey="9">Terms</a></li>
+                <li><a direction="ltr" href="https://www.facebook.com/help/" title="Visit our Help Centre.">Help</a></li>
+                <li><a direction="ltr" class="access-key" href="https://www.facebook.com/settings" title="View and edit your Facebook settings." 
+                accesskey="6">Settings</a></li>
+                <li><a direction="ltr" class="access-key" href="https://www.facebook.com/allactivity?privacy_source=activity_log_top_menu" 
+                title="View your activity log" accesskey="3">Activity log</a></li>
+            </ul>
+        
+            <div id="copyright">
+                <span>Facebook © 2020</span>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- SELECTORS :: https://www.w3schools.com/cssref/css_selectors.asp -->
+    <!-- PSEUDO CLASS :: https://www.w3schools.com/css/css_pseudo_classes.asp -->
+</body>
+</html>
