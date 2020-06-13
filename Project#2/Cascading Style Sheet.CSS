@@ -1,0 +1,360 @@
+* /* Universal selector : Selects all elements */
+{
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    font-family: "lucida grande", tahoma, verdana, arial, sans-serif;
+}
+
+.header-control {
+    background-color: #3f5c9a;
+    width: 100%;
+    height: 80px;
+    padding-top: 6px;
+    border-bottom: 1px solid #133783;
+}
+.align-control {
+    width: 980px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.logo-control {
+    float: left; /* Float property is used for positioning and formatting content */
+                /* Left element floats to the left of its container */
+}
+.logo-control a img {
+    width: 200px;
+    height: 50px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.label-container {
+    float: right;
+    font-family: Arial;
+    font-size: 12px;
+    color: white;
+    margin-top: 13px;
+}
+#email, #password {
+    width: 150px;
+    height: 22px;
+    margin-top: 5px;
+    margin-left: 14px;
+    border: 1px solid #ccd0d5;
+    border-color: #1d2a5b;
+}
+.label-container label {
+    margin-left: 14px;
+}
+#button {
+    background-color: #4267b2;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    line-height: 18px;
+    margin-top: 5px;
+    margin-left: 14px;
+    padding: 2.5px 6.5px;
+    text-align: center;
+    border: 1px solid #29487d;
+    border-radius: 2px;
+    margin-left: 14px;
+    cursor: pointer;
+    white-space: nowrap; /* Sequences of whitespace will collapse into a single whitespace. Text will never wrap to the next line */
+}
+.label-container a {
+    font-weight: normal;
+    text-decoration: none;
+    text-align: left;
+    display: table-cell;
+    transition: all .5s ease-in; /* Ease-in specifies a transition effect with a slow start */
+    direction: ltr; /* Direction property specifies the text/writing direction within a block-level element */
+    color: #9cb4d8;
+    padding: 4px 0px 0px 14px;
+    cursor: pointer;
+}
+.label-container a:hover {
+    text-decoration: underline;
+}
+.division {
+    border-bottom: 1px solid #133783;
+}
+
+.main-page {
+    width: 100%;
+    height: 595px;
+    background: linear-gradient(white, rgb(178, 183, 202));
+}
+
+.content {
+    width: 980px;
+    height: 595px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    direction: ltr;
+}
+.left-half {
+    float: left;
+    font-size: 20px;
+    color: #0e385f;
+    font-family: arial;
+    font-weight: bold;
+    line-height: 29px;
+    margin-top: 40px;
+    width: 580px;
+    word-spacing: -1px;
+    display: block;
+}
+.left-half p {
+    width: 450px;
+}
+.right-half {
+    font-family: Helvetica, Arial, sans-serif;
+    float: left;
+    color: #333;
+    width: 400px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.right-half h1 {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.right-half p {
+    font-size: 20px;
+    font-family: arial;
+    margin: 0px;
+    color:#333;
+}
+.name {
+    width: 172px;
+    font-size: 18px;
+    padding: 8px 10px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    position: relative;
+    border: 1px solid #bdc7d8;
+    margin: 5px 0px 5px 0px;
+}
+.contact {
+    width: 375px;
+    font-size: 18px;
+    padding: 8px 10px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    position: relative;
+    border: 1px solid #bdc7d8;
+    margin: 5px 0px 5px 0px;
+}
+.birthday {
+    color: #90949c;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+.listA a img {
+    cursor: pointer;
+    padding: 5px 10px 5px 10px;
+}
+.listA {
+    list-style: none; 
+    /* To get each item to slide in and out of view nicely use a cubic-bezier for the animation-timing-function property */
+}
+.right-half select {
+    background-color: #fff;
+    color: #1c1e21;
+    padding: 4px;
+    float: left;
+    border: 1px solid #ccd0d5;
+    overflow: visible !important; /* !important means that “this is important”, ignore all the subsequent rules, 
+                                    and apply !important rule and the !important keyword must be placed at the end of the line */
+}
+.gender {
+    color: #90949c;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.listB {
+    list-style: none;
+    line-height: 18px;
+    display: inline-block;
+}
+.listB input {
+    list-style: none;
+    margin: 3px 3px 0px 5px;
+}
+.listB span {
+    color: #1d2129;
+    font-size: 20px;
+    font-weight: normal;
+    display: inline-block;
+    padding: 0 10px 0 3px;
+}
+.listB a img {
+    cursor: pointer;
+    margin-left: 10px;
+}
+#terms {
+    color: #777;
+    font-size: 11px;
+    width: 316px;
+    line-height: 135%;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+#terms a {
+    color: #9bb4d8;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline;
+}
+#terms a:hover {
+    text-decoration: underline;
+    display: inline;
+}
+#create input[type="submit"] {
+    min-width: 194px;
+    height: 42px;
+    text-align: center;
+    font-size: 19px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Freight Sans Bold', helvetica, arial, sans-serif !important;
+    font-weight: bold !important;
+    background: linear-gradient(#67ae55, #578843);
+    box-shadow: inset 0 1px 1px #a4e388;
+    border: 1px solid #3b6e22;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    text-shadow: 0 1px 2px rgba(0,0,0,.5);
+}
+#create p {
+    color: #666;
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 10px;
+    padding-top: 15px;
+}
+#create p a {
+    color: #385898;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline;
+}
+#create p a:hover {
+    text-decoration: underline;
+    display: inline;
+}
+
+.footer {
+    width: 980px;
+    height: 140px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 36px;
+    direction: ltr;
+}
+.footer1 ul {
+    display: flex;  
+    list-style: none;
+    align-items: center;
+    height: 20px;
+    flex-wrap: wrap;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.footer1 ul li {
+    padding-right: 10px;
+}
+.footer1 ul li a {
+    color: #526098;
+    display: inline-block;
+    text-decoration: none;
+    font-family: inherit;
+    font-size: 12px;
+    cursor: pointer;
+}
+.footer1 a:hover {
+    text-decoration: underline;
+    display: inline;
+}
+.footer1 img {
+    position: relative;
+    vertical-align: middle;
+    width: 30px;
+    height: 20px;
+    padding-top: 3px 6px 3px 6px;
+    background-color: rgb(250, 250, 250);
+    display: inline-block;
+    text-decoration: none;
+    white-space: nowrap;
+    border: 1px solid #ccd0d5;
+    border-radius: 2px;
+}
+.footer1 img:hover {
+    background-color: rgb(237, 237, 245);
+    box-shadow: 0 0 0.5px 0.5px rgba(81, 91, 94, 0.5); 
+    /* box-shadow: none| h-offset v-offset blur spread color |inset|initial|inherit */
+}
+.footer1 .border {
+    border-bottom: 1px solid #dddfe2;
+    font-size: 1px;
+    width: 980px;
+    height: 8px;
+    margin-bottom: 8px;
+}
+
+.footer2 ul {
+    display: flex;  
+    list-style: none;
+    align-items: center;
+    height: 20px;
+    flex-wrap: wrap;
+    padding-bottom: 8px;
+}
+.footer2 ul li {
+    padding-right: 20px;
+}
+.footer2 ul li a {
+    color: #526098;
+    display: inline-block;
+    text-decoration: none;
+    font-family: inherit;
+    font-size: 12px;
+    cursor: pointer;
+}
+.footer2 a:hover {
+    text-decoration: underline;
+    display: inline;
+}
+.footer2 img {
+    bottom: 1px;
+    position: relative;
+    vertical-align: middle;
+    padding-right: 3px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    text-decoration: none;
+    white-space: nowrap;
+}
+#copyright {
+    font-size: 11px;
+    margin-top: 35px;
+    color: #737373;
+}
+.access-key {
+    overflow: hidden;
+    visibility: hidden;
+}
