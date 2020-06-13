@@ -14,7 +14,7 @@
 * **Homework 5** `Classes and IDs`
 * **Homework 6** `Responsiveness`
 
-## Frontend Fundamentals
+## Frontend Fundamentals Projects
 
 * **Project 1** `Harry Potter Series`
 * **Project 2** `Facebook Webpage`
@@ -25,3 +25,5 @@
 ➧ [Facebook](https://www.facebook.com/shreyansh.kumarsingh.7)
 ➧ [Instagram](https://www.instagram.com/guru_harry/)
 ➧ [Twitter](https://twitter.com/HpShreyansh)
+
+@guru-shreyansh
