@@ -1,0 +1,103 @@
+.Pictures {
+    width: 400px;
+    height: 400px;
+    display: inline;
+    }
+.UList-A {
+    list-style-type: "→ ";
+    font-size: 20px;
+    }
+.UList-B { /* Bullet Styling */
+    list-style-image: url(Bullet.png);
+    }
+.UList-A a {
+    color: Chocolate;
+    font-size: 50px;
+    }
+.UList-A p {
+    color: Plum;
+    padding-right: 80px;
+    word-wrap: break-word;
+    width: 1000px;
+    }
+.UList-A div {
+    padding-left: 60px;
+    color: Khaki;
+    }
+.UList-A b {
+    font-size: 67px;
+    }
+.UList-B .Marination {
+    color: DodgerBlue;
+    font-size: 25px;
+    }
+.UList-B .Marination b { /* Outer Class > Inner Class > B Block */
+    font-size: 32px;
+    }
+.OList {
+    list-style-type: upper-roman;
+    padding-left: 80px;
+    padding-top: 50px;
+    font-size: 25px;
+    }
+p > span { /* Span tag is an inline container used to mark up a part of a Text */
+    color: Cyan;
+    background-color: Gray;
+    margin: 5px;
+    font-size: 25px;
+    font-style: italic;
+    }
+p > span:last-child {
+    text-decoration: underline;
+    }
+.Unstyled {
+    font-style: normal;
+    text-decoration: none;
+    color: Red;
+    }
+a:link {
+    background-color: Purple; /* Unvisited link */
+    }
+a:visited {
+      background-color: Purple; /* Visited link */
+      }
+a:hover {
+    background-color: GreenYellow; /* Mouse over link */
+    }
+a:active {
+     background-color: Hotpink; /* Selected link */
+     }
+#Button:link, #Button:visited {
+        background-color: LightSeaGreen;
+        color: DeepPink;
+        border: 2px solid Snow;
+        padding: 40px 25px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        }
+#Button:hover, #Button:active { /* Navigation Button */
+        background-color: Tomato;
+        }
+#Links {
+    font-size: 23px;
+    }
+h2 {
+    text-align: left;
+    background-color: SteelBlue;
+    width: 750px;
+    border: 4px solid DarkGray;
+    padding-left: 80px;
+    padding-top: 25x;
+    padding-bottom: 25px;
+    }
+Section {
+    padding-left: 111px;
+    }
+.Ingredients, .Recipe, .Link a { /* Navigation Bar */
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 20px 30px;
+}
