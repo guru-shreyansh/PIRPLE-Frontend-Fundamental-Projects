@@ -6,7 +6,7 @@ Most of the basic tags & attributes are included along with some advanced additi
 
 [Check out the Hosted Webpage here!](https://harrypotter.htmlsave.net/)
 
-:: The Output Webpage ::
+## :: The Output Webpage ::
 
 ![Harry Potter](https://github.com/guru-shreyansh/PIRPLE-Frontend-Fundamental-Projects/blob/master/Project%231/Project%20%231%23%20Output.jpg)
 
