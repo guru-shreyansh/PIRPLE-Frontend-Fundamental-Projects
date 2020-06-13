@@ -22,6 +22,6 @@
 > #FB #Lockdown #Pirple #CSS #Basics #HTML
 
 #### :: Get Socialistic ::
-➧ ![Facebook](https://www.facebook.com/shreyansh.kumarsingh.7)
-➧ ![Instagram](https://www.instagram.com/guru_harry/)
-➧ ![Twitter](https://twitter.com/HpShreyansh)
+➧ [Facebook](https://www.facebook.com/shreyansh.kumarsingh.7)
+➧ [Instagram](https://www.instagram.com/guru_harry/)
+➧ [Twitter](https://twitter.com/HpShreyansh)
