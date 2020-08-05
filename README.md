@@ -5,9 +5,8 @@
 
 *This package consists of various Assignments/Projects which were part of the Assessments of the #Pirple's "Frontend Fundamental" course. These includes designing of a doppelganger of the Facebook homepage, webpage containing recipe of your favourite dish, designing a book/movie page of your choice using #HTML &amp; #CSS. Well designing a new page from scratch seems challenging as a beginner. But overall these were an engaging &amp; dexterous projects. #Lockdown #Pirple*
 
-<img src="FrOnTeNd Fundamentals Certificate.jpg" align="right" height="505" widht="606">
 
-*
+
 
 >`C`
 >`E`
@@ -23,6 +22,8 @@
 
 
 ## Pirple Course Assignments
+
+<img src="FrOnTeNd Fundamentals Certificate.jpg" align="right" height="505" widht="606">
 
 * **Homework 1** `Lists`
 * **Homework 2** `Images`
