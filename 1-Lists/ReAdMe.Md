@@ -4,4 +4,4 @@
 
 ## Output Link : [Click :arrow_forward: Here](https://guru-shreyansh.github.io/PIRPLE-Frontend-Fundamental-Projects/1-Lists/-Recipe+1.html)
 
-![Indian Butter Chicken](Assignment%20%231%23%20Output)
+![Indian Butter Chicken](/Assignment #3# Output.jpg)
