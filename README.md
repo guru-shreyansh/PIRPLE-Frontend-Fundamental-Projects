@@ -22,7 +22,7 @@
 
 ## Pirple Course Assignments
 
-<img align='right' src="FrOnTeNd Fundamentals Certificate.jpg" height="550" widht="660">
+<img align='right' src="FrOnTeNd Fundamentals Certificate.jpg" height="525" widht="630">
 
 * **Homework 1** `Lists`
 * **Homework 2** `Images`
