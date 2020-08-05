@@ -5,7 +5,7 @@ Most of the basic tags & attributes are included along with some advanced additi
 > #Pirple #HTML #Basics
 
 [Check out the Hosted Webpage here!](https://harrypotter.htmlsave.net/)
-## Output Link : [Click :arrow_right: Here](https://guru-shreyansh.github.io/PIRPLE-Frontend-Fundamental-Projects/Project#1/+HarryPotterSeries+.HTML)
+## Output Link : [Click :arrow_right: Here](https://guru-shreyansh.github.io/PIRPLE-Frontend-Fundamental-Projects/Project%231/+HarryPotterSeries+.HTML)
 
 ## :: The Output Webpage ::
 
