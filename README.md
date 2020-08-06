@@ -38,8 +38,8 @@
 > #FB #Lockdown #Pirple #CSS #Basics #HTML
 
 #### :: Get Socialistic ::
-➧ [Facebook](https://www.facebook.com/shreyansh.kumarsingh.7)
-➧ [Instagram](https://www.instagram.com/guru_harry/)
-➧ [Twitter](https://twitter.com/HpShreyansh)
+➧ [Facebook](https://www.facebook.com/guru.shreyansh)
+➧ [Instagram](https://www.instagram.com/guru_shreyansh)
+➧ [Twitter](https://twitter.com/GURU_Shreyansh)
 
 @guru-shreyansh
