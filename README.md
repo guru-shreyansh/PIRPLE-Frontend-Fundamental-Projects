@@ -23,17 +23,27 @@
 
 <img align='right' src="FrOnTeNd Fundamentals Certificate.jpg" height="525" widht="630">
 
-* **Homework 1** `Lists`
+* **Homework 1** [Recipe Link](https://guru-shreyansh.github.io/PIRPLE-Frontend-Fundamental-Projects/1-Lists/-Recipe+1.html)
+
+`Lists`
 * **Homework 2** `Images`
-* **Homework 3** `Links`
+* **Homework 3** [Indian Butter Chicken](https://guru-shreyansh.github.io/PIRPLE-Frontend-Fundamental-Projects/3-Links/-Recipe+3.html)
+
+`Links`
 * **Homework 4** `Basic Styling`
-* **Homework 5** `Classes and IDs`
+* **Homework 5** [Butter Chicken Recipe](https://guru-shreyansh.github.io/PIRPLE-Frontend-Fundamental-Projects/5-Class%20&%20ID/-Recipe+5.html)
+
+`Classes and IDs`
 * **Homework 6** `Responsiveness`
 
 ## Frontend Fundamentals Projects
 
-* **Project 1** `Harry Potter Series`
-* **Project 2** `Facebook Webpage`
+* **Project 1** [Harry Potter Series](https://guru-shreyansh.github.io/PIRPLE-Frontend-Fundamental-Projects/Project%231/+HarryPotterSeries+.HTML)
+
+`Harry Potter Series`
+* **Project 2** [](https://guru-shreyansh.github.io/PIRPLE-Frontend-Fundamental-Projects/Project%232/+Facebook-Homepage+.HTML)
+
+`Facebook Webpage`
 
 > #FB #Lockdown #Pirple #CSS #Basics #HTML
 
