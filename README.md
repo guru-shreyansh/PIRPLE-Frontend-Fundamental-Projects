@@ -32,12 +32,8 @@
 
 ## Frontend Fundamentals Projects
 
-* **Project 1** [Harry Potter Series](https://guru-shreyansh.github.io/PIRPLE-Frontend-Fundamental-Projects/Project%231/+HarryPotterSeries+.HTML)
-
-`Harry Potter Series`
-* **Project 2** [](https://guru-shreyansh.github.io/PIRPLE-Frontend-Fundamental-Projects/Project%232/+Facebook-Homepage+.HTML)
-
-`Facebook Webpage`
+* **Project 1** [Harry Potter Series](https://guru-shreyansh.github.io/PIRPLE-Frontend-Fundamental-Projects/Project%231/+HarryPotterSeries+.HTML) `Harry Potter Series`
+* **Project 2** [Facebook Homepage](https://guru-shreyansh.github.io/PIRPLE-Frontend-Fundamental-Projects/Project%232/+Facebook-Homepage+.HTML) `Facebook Webpage`
 
 > #FB #Lockdown #Pirple #CSS #Basics #HTML
 
